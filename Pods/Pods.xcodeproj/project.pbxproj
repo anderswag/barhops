@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E6EFE7F604EC34AF593AA077338933 /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C498DC509AD9C46372D37D46F29942 /* MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E16D6AFF232DAF89A6929B8A7966909 /* MMDrawerController+Storyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 006BED9CEF50B5A5641E2C136E2F5C39 /* MMDrawerController+Storyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB714F1BB1770CDE6EA831ED99C23DBF /* Timeline.swift */; };
+		13547251DD5B5A4F4860DB3BB2237F4C /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0615AB128BEE76B611783C073070FF8A /* MMDrawerController.m */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6955F86379BA59AF1C3FF457F51CA59 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF502BC1AF0EE443CF8409C4C81B02 /* TaskDelegate.swift */; };
+		425C78BBD8D16CEBA09A4C40E639DEA8 /* MMDrawerVisualState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2404A8F3B27869CB594EC0D435B18A /* MMDrawerVisualState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EC40B7C35B288183DDD673645A663C /* MMDrawerController+Storyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F73003BD34BE140323C814D4E4E320C /* MMDrawerController+Storyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D4B9173C34788404AE6D025C33083C /* Request.swift */; };
+		538DB07D45E461E58A0D0DBC32F39A9A /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E68D8EFD71F4A480098DD4DA88AF4A /* MMDrawerController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6585A75F8E38E5B64F15BDD41835D6 /* Pods-Barhops-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4C0CCD974B51E9FA4981FE323386FB0 /* Pods-Barhops-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C63168A73461D1AFFC21514EFA6D438 /* MMDrawerController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DA20499A6BD494B55D05A8D12E40A2 /* MMDrawerController+Storyboard.m */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1153913727DB5770D1FBCF35600DCCB /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9EFC5A4593E2D1F8281C1BAF9241BC /* ServerTrustPolicy.swift */; };
+		6418EBF9EB06B1FAE79A7ABD6F989D00 /* MMDrawerController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F55FED44F61C2561025AED7441180 /* MMDrawerController.framework */; };
+		6603C8DC7C1D5E7DBDD9D4D48B45A244 /* MMDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0948D2F4FC33085E14B56DFCD7FE78E /* MMDrawerController-dummy.m */; };
+		6FC47BD13A00F2873557F8F2B2AECB50 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FDE3C85CDB9DE6EAFDBFF26EAC8F1C /* MMDrawerBarButtonItem.m */; };
+		75631659677A9B2C3F358DB7943D7425 /* MMDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E0708639A395281CF38DAF95B72EF3 /* MMDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14B643CDE8EA43FD11701E688169F78 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6543A1E18FB44EB35CA552DBE79E9ECF /* Result.swift */; };
+		7E8311B58E7E3F5F1FC6066EFEE3D17E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */; };
+		83EB269F83ED43B232B8547159AD10B2 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAFE91C74A07B6D35D490D44570B81B /* UIViewController+MMDrawerController.m */; };
+		898A00A366623FEDB727E919A2D336E8 /* MMDrawerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F685F74BFE718EE1078C56A1C5266438 /* MMDrawerBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9383BC35EE4D8912E31D3BD4062D6DA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */; };
+		976AE3B8EDE4A22F33EC8AB6188050A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C66F24FBD2AEA7912806A824AFC83F /* QuartzCore.framework */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30F59A1839CA0B415AACA315CFDC18 /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68E337CA7D7193B254106AB88AD7001 /* NetworkReachabilityManager.swift */; };
+		A62AD95CDC21543E1386D176DE4822D3 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B3F6DD19107889E900868C2F17F613 /* MMDrawerVisualState.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C4F4418D50DAD4D2983C84439DD0E8 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7323DC0F9A9DE7F58C0D6B88F7D30D4 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A279A71667ED9FC8F3FE1D15F22351B4 /* MultipartFormData.swift */; };
+		B83DBAF9155D882F8F28E042945F75C1 /* UIViewController+MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEBEAF72A301A1A3B732FA3122B1E24 /* UIViewController+MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA78DEA0AB8ECE8BC6A4CA192F37E96 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCED0130C88D26B44D877402F2068DF /* ParameterEncoding.swift */; };
+		C73F2B079AF82BEEAF3E68353CBAD564 /* MMDrawerController+Storyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7734FB6BEC48E6F4F8604EC3F4E78AB1 /* MMDrawerController+Storyboard-dummy.m */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA165ED03896C07926AF52B273AAC126 /* Response.swift */; };
+		CE8C8B187C35CC38D105D66CD57B2F10 /* Pods-Barhops-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5BCBDD67D6B9ED4BAA49C164700C572 /* Pods-Barhops-dummy.m */; };
+		EBD54081345835519D29FC5259CBA73C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B3B517FBFAF6AA7A10321686462153 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA3CC5F693047B5AA15D37DBA45974 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44843352B154EAB7CD1B61B2FFDF2D8 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4407479BFEB49B0AE718F7EC96021B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FAB4675B15F8258B6C19B71077B859;
+			remoteInfo = MMDrawerController;
+		};
+		6C5E7BA989A797FAFEAAA32C31CF6E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8FAB4675B15F8258B6C19B71077B859;
+			remoteInfo = MMDrawerController;
+		};
+		CC8E17E2337B8742E5AAE04469CA0173 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		F27FCD8273629F7D8945CDC4E18AFE26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C55133728C6D8528BC64A226577DEAC1;
+			remoteInfo = "MMDrawerController+Storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006BED9CEF50B5A5641E2C136E2F5C39 /* MMDrawerController+Storyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard-umbrella.h"; sourceTree = "<group>"; };
+		03E68D8EFD71F4A480098DD4DA88AF4A /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		05E1F549195F0F0C582365CB4AC8FD36 /* MMDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMDrawerController.xcconfig; sourceTree = "<group>"; };
+		0615AB128BEE76B611783C073070FF8A /* MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		06D4B9173C34788404AE6D025C33083C /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		0A8F55FED44F61C2561025AED7441180 /* MMDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EAFC199A07AF4775E6054BF247B38E3 /* MMDrawerController+Storyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard-prefix.pch"; sourceTree = "<group>"; };
+		10AC11A8C0E6EC030402A6861EE024AF /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		16E3B702D3263564AD5CA4D5EBCF5A27 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		17266CFA0278B9DA274C4767F557BA39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1CD92E5C1B40075755EAF0169BFBCBB2 /* Pods-Barhops.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Barhops.modulemap"; sourceTree = "<group>"; };
+		1FCED0130C88D26B44D877402F2068DF /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		257A874901143C79D6A403DA6D78B8FC /* MMDrawerController_Storyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMDrawerController_Storyboard.framework; path = "MMDrawerController+Storyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2404A8F3B27869CB594EC0D435B18A /* MMDrawerVisualState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		325E92F90C4520C4277A1D3B7D6D18FE /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		39DFA6D38F53B967D5D535B2DE9C48B8 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		3EE953B13531AC012D12D42AF7A599B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4656C4095B01C1669C18B49DAB9C0218 /* MMDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMDrawerController.modulemap; sourceTree = "<group>"; };
+		4D123089A5C2F3B78F8DA56743D1A82F /* MMDrawerController+Storyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "MMDrawerController+Storyboard.modulemap"; sourceTree = "<group>"; };
+		4D30F59A1839CA0B415AACA315CFDC18 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		4E2E2A5E2956F6791B84B07184EF7954 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		56130BA8F7FCE2F28CFF4413E1129719 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F798D11C2787BC7C19380DB49406BE /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		5EA78DEA0AB8ECE8BC6A4CA192F37E96 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5F832DA91588EE02D1E4D92A0E5549A6 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		5FBF502BC1AF0EE443CF8409C4C81B02 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		63BF3FC5D6A97DE7A45388B21F90BA88 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		6543A1E18FB44EB35CA552DBE79E9ECF /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		69E0708639A395281CF38DAF95B72EF3 /* MMDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		7734FB6BEC48E6F4F8604EC3F4E78AB1 /* MMDrawerController+Storyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard-dummy.m"; sourceTree = "<group>"; };
+		7F73003BD34BE140323C814D4E4E320C /* MMDrawerController+Storyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard.h"; sourceTree = "<group>"; };
+		85DA20499A6BD494B55D05A8D12E40A2 /* MMDrawerController+Storyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard.m"; sourceTree = "<group>"; };
+		89FA6E3330596FB2BFEAE8B0122C44B7 /* Pods-Barhops-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Barhops-resources.sh"; sourceTree = "<group>"; };
+		8CEBEAF72A301A1A3B732FA3122B1E24 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		8E9EFC5A4593E2D1F8281C1BAF9241BC /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F8E39F9091F67B0B6D4E03380ADC05 /* Pods-Barhops-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Barhops-acknowledgements.markdown"; sourceTree = "<group>"; };
+		96B3F6DD19107889E900868C2F17F613 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		96FA3CC5F693047B5AA15D37DBA45974 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		A279A71667ED9FC8F3FE1D15F22351B4 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A51DDD7E5CDBD52F3CC15B940DC369FA /* MMDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		A5BB776BDCCBDD32B00291DE43A21CF2 /* Pods_Barhops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Barhops.framework; path = "Pods-Barhops.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7323DC0F9A9DE7F58C0D6B88F7D30D4 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		B0948D2F4FC33085E14B56DFCD7FE78E /* MMDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController-dummy.m"; sourceTree = "<group>"; };
+		B5BCBDD67D6B9ED4BAA49C164700C572 /* Pods-Barhops-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Barhops-dummy.m"; sourceTree = "<group>"; };
+		B796E62A5494692BB1B09D4DBC948FF4 /* Pods-Barhops-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Barhops-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8B3B517FBFAF6AA7A10321686462153 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		BB714F1BB1770CDE6EA831ED99C23DBF /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C34215EDB1C3970B9D244165AB0DE507 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FDE3C85CDB9DE6EAFDBFF26EAC8F1C /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		C44843352B154EAB7CD1B61B2FFDF2D8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C4C0CCD974B51E9FA4981FE323386FB0 /* Pods-Barhops-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Barhops-umbrella.h"; sourceTree = "<group>"; };
+		C8C66F24FBD2AEA7912806A824AFC83F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D1C498DC509AD9C46372D37D46F29942 /* MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		D6666DA9F12A6769963E0FEFC4AC05EC /* Pods-Barhops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barhops.release.xcconfig"; sourceTree = "<group>"; };
+		D7C4F4418D50DAD4D2983C84439DD0E8 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		D8B63C67E282DB9E334BA036350A7AE7 /* Pods-Barhops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Barhops.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB853B72B4D015F6C6AD259B98B12FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14B643CDE8EA43FD11701E688169F78 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		E2E5E71AD81A5FE5C3651ED6FE402763 /* MMDrawerController+Storyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMDrawerController+Storyboard.xcconfig"; sourceTree = "<group>"; };
+		E68E337CA7D7193B254106AB88AD7001 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		E6955F86379BA59AF1C3FF457F51CA59 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		E78759B8457A52985A1CA63C488DEC0A /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		EA165ED03896C07926AF52B273AAC126 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		F1153913727DB5770D1FBCF35600DCCB /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		F685F74BFE718EE1078C56A1C5266438 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		F86F3243EF0B7C9E73BCBA3925E5566F /* Pods-Barhops-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Barhops-frameworks.sh"; sourceTree = "<group>"; };
+		FC724BFBDBF2E5DC821801EBB951DA6D /* MMDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMDrawerController.framework; path = MMDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFAFE91C74A07B6D35D490D44570B81B /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E526628BAA151789C2522F538EECA1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD54081345835519D29FC5259CBA73C /* Foundation.framework in Frameworks */,
+				6418EBF9EB06B1FAE79A7ABD6F989D00 /* MMDrawerController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		355009164ACD5152F09953B20155E2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8311B58E7E3F5F1FC6066EFEE3D17E /* Foundation.framework in Frameworks */,
+				976AE3B8EDE4A22F33EC8AB6188050A0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B7CB81A74D4335C060E1BC718BB77ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9383BC35EE4D8912E31D3BD4062D6DA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010439DE8BA8AE75C8CA4423481097A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17266CFA0278B9DA274C4767F557BA39 /* Info.plist */,
+				4D123089A5C2F3B78F8DA56743D1A82F /* MMDrawerController+Storyboard.modulemap */,
+				E2E5E71AD81A5FE5C3651ED6FE402763 /* MMDrawerController+Storyboard.xcconfig */,
+				7734FB6BEC48E6F4F8604EC3F4E78AB1 /* MMDrawerController+Storyboard-dummy.m */,
+				0EAFC199A07AF4775E6054BF247B38E3 /* MMDrawerController+Storyboard-prefix.pch */,
+				006BED9CEF50B5A5641E2C136E2F5C39 /* MMDrawerController+Storyboard-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawerController+Storyboard";
+			sourceTree = "<group>";
+		};
+		089051F2DD7359CD78FC6DC21DFB675C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CE4BE04BD6C44D30E439EB992F62574 /* Pods-Barhops */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2F90C68DE4216BF3AF23428AB81C978F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4833402624A1F9F770B9CC18EEE1BE2B /* Alamofire */,
+				3E8AA1F540DE24F6C62C1E530FD03A49 /* GoogleMaps */,
+				B0B82E57C8E8EA179D9A15E8F1959B5A /* GooglePlaces */,
+				3FC294CE71D2EDDAABD284FB888DC39E /* MMDrawerController */,
+				F397AE4B8ECF42438254F950FDDBA68D /* MMDrawerController+Storyboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		342CDBF7879B25E388C6B5783222CAB0 /* MMDrawerBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				F685F74BFE718EE1078C56A1C5266438 /* MMDrawerBarButtonItem.h */,
+				C3FDE3C85CDB9DE6EAFDBFF26EAC8F1C /* MMDrawerBarButtonItem.m */,
+			);
+			name = MMDrawerBarButtonItem;
+			sourceTree = "<group>";
+		};
+		3E8AA1F540DE24F6C62C1E530FD03A49 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				EC6803D2A7500F31276CB1ED0D945D40 /* Base */,
+				447D650B9B31486ABD4000DAB17C2B03 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3FC294CE71D2EDDAABD284FB888DC39E /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				4461B2C8908BE5058BEE6FF52C3B0590 /* Core */,
+				342CDBF7879B25E388C6B5783222CAB0 /* MMDrawerBarButtonItem */,
+				C5A7B868F9F62006E7BFE6616EC53788 /* MMDrawerVisualStates */,
+				3FF6F006052C1EF88952553F6F893BA4 /* Subclass */,
+				FEF316EBD731B54671844D3E0F295E26 /* Support Files */,
+			);
+			name = MMDrawerController;
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		3FF6F006052C1EF88952553F6F893BA4 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				03E68D8EFD71F4A480098DD4DA88AF4A /* MMDrawerController+Subclass.h */,
+			);
+			name = Subclass;
+			sourceTree = "<group>";
+		};
+		4461B2C8908BE5058BEE6FF52C3B0590 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D1C498DC509AD9C46372D37D46F29942 /* MMDrawerController.h */,
+				0615AB128BEE76B611783C073070FF8A /* MMDrawerController.m */,
+				8CEBEAF72A301A1A3B732FA3122B1E24 /* UIViewController+MMDrawerController.h */,
+				FFAFE91C74A07B6D35D490D44570B81B /* UIViewController+MMDrawerController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		447D650B9B31486ABD4000DAB17C2B03 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DC8E8A53B03DBC3271C902FDCF916299 /* Frameworks */,
+				D584996C9DF7D09E2345B4CBF4CD329C /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		454ADC5067B022DD1A551085152903AE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1B6EED10BAA602D23849269FAF960E90 /* Foundation.framework */,
+				C8C66F24FBD2AEA7912806A824AFC83F /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4833402624A1F9F770B9CC18EEE1BE2B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4D30F59A1839CA0B415AACA315CFDC18 /* AFError.swift */,
+				C44843352B154EAB7CD1B61B2FFDF2D8 /* Alamofire.swift */,
+				F1153913727DB5770D1FBCF35600DCCB /* DispatchQueue+Alamofire.swift */,
+				A279A71667ED9FC8F3FE1D15F22351B4 /* MultipartFormData.swift */,
+				E68E337CA7D7193B254106AB88AD7001 /* NetworkReachabilityManager.swift */,
+				B8B3B517FBFAF6AA7A10321686462153 /* Notifications.swift */,
+				1FCED0130C88D26B44D877402F2068DF /* ParameterEncoding.swift */,
+				06D4B9173C34788404AE6D025C33083C /* Request.swift */,
+				EA165ED03896C07926AF52B273AAC126 /* Response.swift */,
+				96FA3CC5F693047B5AA15D37DBA45974 /* ResponseSerialization.swift */,
+				6543A1E18FB44EB35CA552DBE79E9ECF /* Result.swift */,
+				8E9EFC5A4593E2D1F8281C1BAF9241BC /* ServerTrustPolicy.swift */,
+				E14B643CDE8EA43FD11701E688169F78 /* SessionDelegate.swift */,
+				A7323DC0F9A9DE7F58C0D6B88F7D30D4 /* SessionManager.swift */,
+				5FBF502BC1AF0EE443CF8409C4C81B02 /* TaskDelegate.swift */,
+				BB714F1BB1770CDE6EA831ED99C23DBF /* Timeline.swift */,
+				5EA78DEA0AB8ECE8BC6A4CA192F37E96 /* Validation.swift */,
+				710559954028D8F121860853508B05F2 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		5BB736CB94577B5BB1F4AB98D22FC219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F832DA91588EE02D1E4D92A0E5549A6 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE4BE04BD6C44D30E439EB992F62574 /* Pods-Barhops */ = {
+			isa = PBXGroup;
+			children = (
+				DAB853B72B4D015F6C6AD259B98B12FD /* Info.plist */,
+				1CD92E5C1B40075755EAF0169BFBCBB2 /* Pods-Barhops.modulemap */,
+				94F8E39F9091F67B0B6D4E03380ADC05 /* Pods-Barhops-acknowledgements.markdown */,
+				B796E62A5494692BB1B09D4DBC948FF4 /* Pods-Barhops-acknowledgements.plist */,
+				B5BCBDD67D6B9ED4BAA49C164700C572 /* Pods-Barhops-dummy.m */,
+				F86F3243EF0B7C9E73BCBA3925E5566F /* Pods-Barhops-frameworks.sh */,
+				89FA6E3330596FB2BFEAE8B0122C44B7 /* Pods-Barhops-resources.sh */,
+				C4C0CCD974B51E9FA4981FE323386FB0 /* Pods-Barhops-umbrella.h */,
+				D8B63C67E282DB9E334BA036350A7AE7 /* Pods-Barhops.debug.xcconfig */,
+				D6666DA9F12A6769963E0FEFC4AC05EC /* Pods-Barhops.release.xcconfig */,
+			);
+			name = "Pods-Barhops";
+			path = "Target Support Files/Pods-Barhops";
+			sourceTree = "<group>";
+		};
+		6D14BE97233E008575577CD37D5D3A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34215EDB1C3970B9D244165AB0DE507 /* Alamofire.framework */,
+				FC724BFBDBF2E5DC821801EBB951DA6D /* MMDrawerController.framework */,
+				257A874901143C79D6A403DA6D78B8FC /* MMDrawerController_Storyboard.framework */,
+				A5BB776BDCCBDD32B00291DE43A21CF2 /* Pods_Barhops.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		710559954028D8F121860853508B05F2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BF3FC5D6A97DE7A45388B21F90BA88 /* Alamofire.modulemap */,
+				39DFA6D38F53B967D5D535B2DE9C48B8 /* Alamofire.xcconfig */,
+				D7C4F4418D50DAD4D2983C84439DD0E8 /* Alamofire-dummy.m */,
+				59F798D11C2787BC7C19380DB49406BE /* Alamofire-prefix.pch */,
+				E6955F86379BA59AF1C3FF457F51CA59 /* Alamofire-umbrella.h */,
+				3EE953B13531AC012D12D42AF7A599B1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DF10D0DC68402877AF6FB5CD1BD4659B /* Frameworks */,
+				2F90C68DE4216BF3AF23428AB81C978F /* Pods */,
+				6D14BE97233E008575577CD37D5D3A6D /* Products */,
+				089051F2DD7359CD78FC6DC21DFB675C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F5DA06A46D2364A031B39AE520AD13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78759B8457A52985A1CA63C488DEC0A /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BDB21D0AAF203023DEE463EFDD0FD4F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				325E92F90C4520C4277A1D3B7D6D18FE /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0B82E57C8E8EA179D9A15E8F1959B5A /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8F5DA06A46D2364A031B39AE520AD13C /* Frameworks */,
+				9BDB21D0AAF203023DEE463EFDD0FD4F /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		C5A7B868F9F62006E7BFE6616EC53788 /* MMDrawerVisualStates */ = {
+			isa = PBXGroup;
+			children = (
+				2D2404A8F3B27869CB594EC0D435B18A /* MMDrawerVisualState.h */,
+				96B3F6DD19107889E900868C2F17F613 /* MMDrawerVisualState.m */,
+			);
+			name = MMDrawerVisualStates;
+			sourceTree = "<group>";
+		};
+		D584996C9DF7D09E2345B4CBF4CD329C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E2E2A5E2956F6791B84B07184EF7954 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC8E8A53B03DBC3271C902FDCF916299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E3B702D3263564AD5CA4D5EBCF5A27 /* GoogleMaps.framework */,
+				10AC11A8C0E6EC030402A6861EE024AF /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF10D0DC68402877AF6FB5CD1BD4659B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F55FED44F61C2561025AED7441180 /* MMDrawerController.framework */,
+				454ADC5067B022DD1A551085152903AE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6803D2A7500F31276CB1ED0D945D40 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5BB736CB94577B5BB1F4AB98D22FC219 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F397AE4B8ECF42438254F950FDDBA68D /* MMDrawerController+Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7F73003BD34BE140323C814D4E4E320C /* MMDrawerController+Storyboard.h */,
+				85DA20499A6BD494B55D05A8D12E40A2 /* MMDrawerController+Storyboard.m */,
+				010439DE8BA8AE75C8CA4423481097A6 /* Support Files */,
+			);
+			name = "MMDrawerController+Storyboard";
+			path = "MMDrawerController+Storyboard";
+			sourceTree = "<group>";
+		};
+		FEF316EBD731B54671844D3E0F295E26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56130BA8F7FCE2F28CFF4413E1129719 /* Info.plist */,
+				4656C4095B01C1669C18B49DAB9C0218 /* MMDrawerController.modulemap */,
+				05E1F549195F0F0C582365CB4AC8FD36 /* MMDrawerController.xcconfig */,
+				B0948D2F4FC33085E14B56DFCD7FE78E /* MMDrawerController-dummy.m */,
+				A51DDD7E5CDBD52F3CC15B940DC369FA /* MMDrawerController-prefix.pch */,
+				69E0708639A395281CF38DAF95B72EF3 /* MMDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawerController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69BFC982C026B83EDAF3102937BF1ED9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898A00A366623FEDB727E919A2D336E8 /* MMDrawerBarButtonItem.h in Headers */,
+				538DB07D45E461E58A0D0DBC32F39A9A /* MMDrawerController+Subclass.h in Headers */,
+				75631659677A9B2C3F358DB7943D7425 /* MMDrawerController-umbrella.h in Headers */,
+				03E6EFE7F604EC34AF593AA077338933 /* MMDrawerController.h in Headers */,
+				425C78BBD8D16CEBA09A4C40E639DEA8 /* MMDrawerVisualState.h in Headers */,
+				B83DBAF9155D882F8F28E042945F75C1 /* UIViewController+MMDrawerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9806E0F89A2F86588CA5D46DDBADA6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6585A75F8E38E5B64F15BDD41835D6 /* Pods-Barhops-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C8098B55C072FC55462037C6CA10B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E16D6AFF232DAF89A6929B8A7966909 /* MMDrawerController+Storyboard-umbrella.h in Headers */,
+				49EC40B7C35B288183DDD673645A663C /* MMDrawerController+Storyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = C34215EDB1C3970B9D244165AB0DE507 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		966BD242DDC424252965F34AFB805993 /* Pods-Barhops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8E04CD62126F35599EB6CCFA248F96 /* Build configuration list for PBXNativeTarget "Pods-Barhops" */;
+			buildPhases = (
+				71514B1DAC42F7C0973A932FC3B2E5FF /* Sources */,
+				8B7CB81A74D4335C060E1BC718BB77ED /* Frameworks */,
+				A9806E0F89A2F86588CA5D46DDBADA6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00A1DD6F4021BC819BFD1A46997E2274 /* PBXTargetDependency */,
+				46F85AAA04D32E29E9A62C36165986C9 /* PBXTargetDependency */,
+				BE7E8160655840DCAE89866E5D7B6E60 /* PBXTargetDependency */,
+			);
+			name = "Pods-Barhops";
+			productName = "Pods-Barhops";
+			productReference = A5BB776BDCCBDD32B00291DE43A21CF2 /* Pods_Barhops.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1AD8E2252D946F71C8BD80C393726C /* Build configuration list for PBXNativeTarget "MMDrawerController" */;
+			buildPhases = (
+				B692F0B6E9B50E5123DB8D1E561BACD2 /* Sources */,
+				355009164ACD5152F09953B20155E2CA /* Frameworks */,
+				69BFC982C026B83EDAF3102937BF1ED9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerController;
+			productName = MMDrawerController;
+			productReference = FC724BFBDBF2E5DC821801EBB951DA6D /* MMDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C55133728C6D8528BC64A226577DEAC1 /* MMDrawerController+Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D0C979495C3C2DDA65291A75FBAADE /* Build configuration list for PBXNativeTarget "MMDrawerController+Storyboard" */;
+			buildPhases = (
+				7324368042823EFA2AD7081678286B8C /* Sources */,
+				0E526628BAA151789C2522F538EECA1F /* Frameworks */,
+				EE2C8098B55C072FC55462037C6CA10B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBEC76453C5F725A45D552BA7D0A283 /* PBXTargetDependency */,
+			);
+			name = "MMDrawerController+Storyboard";
+			productName = "MMDrawerController+Storyboard";
+			productReference = 257A874901143C79D6A403DA6D78B8FC /* MMDrawerController_Storyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D14BE97233E008575577CD37D5D3A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */,
+				C55133728C6D8528BC64A226577DEAC1 /* MMDrawerController+Storyboard */,
+				966BD242DDC424252965F34AFB805993 /* Pods-Barhops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71514B1DAC42F7C0973A932FC3B2E5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8C8B187C35CC38D105D66CD57B2F10 /* Pods-Barhops-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7324368042823EFA2AD7081678286B8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73F2B079AF82BEEAF3E68353CBAD564 /* MMDrawerController+Storyboard-dummy.m in Sources */,
+				5C63168A73461D1AFFC21514EFA6D438 /* MMDrawerController+Storyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692F0B6E9B50E5123DB8D1E561BACD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC47BD13A00F2873557F8F2B2AECB50 /* MMDrawerBarButtonItem.m in Sources */,
+				6603C8DC7C1D5E7DBDD9D4D48B45A244 /* MMDrawerController-dummy.m in Sources */,
+				13547251DD5B5A4F4860DB3BB2237F4C /* MMDrawerController.m in Sources */,
+				A62AD95CDC21543E1386D176DE4822D3 /* MMDrawerVisualState.m in Sources */,
+				83EB269F83ED43B232B8547159AD10B2 /* UIViewController+MMDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00A1DD6F4021BC819BFD1A46997E2274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = CC8E17E2337B8742E5AAE04469CA0173 /* PBXContainerItemProxy */;
+		};
+		3DBEC76453C5F725A45D552BA7D0A283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */;
+			targetProxy = 4407479BFEB49B0AE718F7EC96021B93 /* PBXContainerItemProxy */;
+		};
+		46F85AAA04D32E29E9A62C36165986C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = A8FAB4675B15F8258B6C19B71077B859 /* MMDrawerController */;
+			targetProxy = 6C5E7BA989A797FAFEAAA32C31CF6E8A /* PBXContainerItemProxy */;
+		};
+		BE7E8160655840DCAE89866E5D7B6E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMDrawerController+Storyboard";
+			target = C55133728C6D8528BC64A226577DEAC1 /* MMDrawerController+Storyboard */;
+			targetProxy = F27FCD8273629F7D8945CDC4E18AFE26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DFA6D38F53B967D5D535B2DE9C48B8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1313C5C07FC72390ACBE680FB622E3C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E1F549195F0F0C582365CB4AC8FD36 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController/MMDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		191E3730369BCABC9B50BB06FF4003DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6666DA9F12A6769963E0FEFC4AC05EC /* Pods-Barhops.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Barhops/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barhops/Pods-Barhops.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Barhops;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44F985AFFEDD41BE7119F884C99ED121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E5E71AD81A5FE5C3651ED6FE402763 /* MMDrawerController+Storyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController+Storyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMDrawerController_Storyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BED762B407B08AFE0D9D7A021DEE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B63C67E282DB9E334BA036350A7AE7 /* Pods-Barhops.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Barhops/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Barhops/Pods-Barhops.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Barhops;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2FBF8C7A36A589373BAFEAE696D692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E5E71AD81A5FE5C3651ED6FE402763 /* MMDrawerController+Storyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController+Storyboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMDrawerController_Storyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DFA6D38F53B967D5D535B2DE9C48B8 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE8D59377632025491A736975169FB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E1F549195F0F0C582365CB4AC8FD36 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMDrawerController/MMDrawerController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1AD8E2252D946F71C8BD80C393726C /* Build configuration list for PBXNativeTarget "MMDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D59377632025491A736975169FB75 /* Debug */,
+				1313C5C07FC72390ACBE680FB622E3C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D0C979495C3C2DDA65291A75FBAADE /* Build configuration list for PBXNativeTarget "MMDrawerController+Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44F985AFFEDD41BE7119F884C99ED121 /* Debug */,
+				D2FBF8C7A36A589373BAFEAE696D692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8E04CD62126F35599EB6CCFA248F96 /* Build configuration list for PBXNativeTarget "Pods-Barhops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BED762B407B08AFE0D9D7A021DEE02 /* Debug */,
+				191E3730369BCABC9B50BB06FF4003DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

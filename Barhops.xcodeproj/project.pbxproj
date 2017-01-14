@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955D74521E2A8D8800C74649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D74511E2A8D8800C74649 /* AppDelegate.swift */; };
+		955D74541E2A8D8800C74649 /* MainBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D74531E2A8D8800C74649 /* MainBarViewController.swift */; };
+		955D74571E2A8D8800C74649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955D74551E2A8D8800C74649 /* Main.storyboard */; };
+		955D74591E2A8D8800C74649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955D74581E2A8D8800C74649 /* Assets.xcassets */; };
+		955D745C1E2A8D8800C74649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 955D745A1E2A8D8800C74649 /* LaunchScreen.storyboard */; };
+		955D74641E2A986100C74649 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D74631E2A986100C74649 /* RootViewController.swift */; };
+		955D74661E2A9D4B00C74649 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955D74651E2A9D4B00C74649 /* ProfileViewController.swift */; };
+		95AE33A11E2ABF1600DB4847 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 95AE33A01E2ABF1600DB4847 /* style.json */; };
+		B7A712036C56988CB2CB4B4A /* Pods_Barhops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A7B84FFFFB16A9C226A4E7 /* Pods_Barhops.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		955D744E1E2A8D8800C74649 /* Barhops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barhops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D74511E2A8D8800C74649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		955D74531E2A8D8800C74649 /* MainBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBarViewController.swift; sourceTree = "<group>"; };
+		955D74561E2A8D8800C74649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		955D74581E2A8D8800C74649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		955D745B1E2A8D8800C74649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		955D745D1E2A8D8800C74649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955D74631E2A986100C74649 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		955D74651E2A9D4B00C74649 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		95AE33A01E2ABF1600DB4847 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		B95A8A1EF30C4FD15436F2EF /* Pods-Barhops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barhops.release.xcconfig"; path = "Pods/Target Support Files/Pods-Barhops/Pods-Barhops.release.xcconfig"; sourceTree = "<group>"; };
+		E5A7B84FFFFB16A9C226A4E7 /* Pods_Barhops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barhops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE26F761732F72047154546F /* Pods-Barhops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barhops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Barhops/Pods-Barhops.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		955D744B1E2A8D8800C74649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A712036C56988CB2CB4B4A /* Pods_Barhops.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B12B72F597B6E8798C115A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5A7B84FFFFB16A9C226A4E7 /* Pods_Barhops.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		955D74451E2A8D8800C74649 = {
+			isa = PBXGroup;
+			children = (
+				955D74501E2A8D8800C74649 /* Barhops */,
+				955D744F1E2A8D8800C74649 /* Products */,
+				FBBBE90952EB35852187A2AB /* Pods */,
+				8B12B72F597B6E8798C115A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		955D744F1E2A8D8800C74649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955D744E1E2A8D8800C74649 /* Barhops.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		955D74501E2A8D8800C74649 /* Barhops */ = {
+			isa = PBXGroup;
+			children = (
+				955D74511E2A8D8800C74649 /* AppDelegate.swift */,
+				955D74631E2A986100C74649 /* RootViewController.swift */,
+				955D74531E2A8D8800C74649 /* MainBarViewController.swift */,
+				955D74651E2A9D4B00C74649 /* ProfileViewController.swift */,
+				955D74551E2A8D8800C74649 /* Main.storyboard */,
+				955D74581E2A8D8800C74649 /* Assets.xcassets */,
+				955D745A1E2A8D8800C74649 /* LaunchScreen.storyboard */,
+				95AE33A01E2ABF1600DB4847 /* style.json */,
+				955D745D1E2A8D8800C74649 /* Info.plist */,
+			);
+			path = Barhops;
+			sourceTree = "<group>";
+		};
+		FBBBE90952EB35852187A2AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE26F761732F72047154546F /* Pods-Barhops.debug.xcconfig */,
+				B95A8A1EF30C4FD15436F2EF /* Pods-Barhops.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		955D744D1E2A8D8800C74649 /* Barhops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 955D74601E2A8D8800C74649 /* Build configuration list for PBXNativeTarget "Barhops" */;
+			buildPhases = (
+				31233AD8D7D2C684C6786818 /* [CP] Check Pods Manifest.lock */,
+				955D744A1E2A8D8800C74649 /* Sources */,
+				955D744B1E2A8D8800C74649 /* Frameworks */,
+				955D744C1E2A8D8800C74649 /* Resources */,
+				BDFABECDF6959AFFDA824509 /* [CP] Embed Pods Frameworks */,
+				BD19B98DE51A601B9B5018FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barhops;
+			productName = Barhops;
+			productReference = 955D744E1E2A8D8800C74649 /* Barhops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		955D74461E2A8D8800C74649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matthew Mauro";
+				TargetAttributes = {
+					955D744D1E2A8D8800C74649 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5S7CM55XUG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 955D74491E2A8D8800C74649 /* Build configuration list for PBXProject "Barhops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 955D74451E2A8D8800C74649;
+			productRefGroup = 955D744F1E2A8D8800C74649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				955D744D1E2A8D8800C74649 /* Barhops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		955D744C1E2A8D8800C74649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D745C1E2A8D8800C74649 /* LaunchScreen.storyboard in Resources */,
+				955D74591E2A8D8800C74649 /* Assets.xcassets in Resources */,
+				955D74571E2A8D8800C74649 /* Main.storyboard in Resources */,
+				95AE33A11E2ABF1600DB4847 /* style.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31233AD8D7D2C684C6786818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD19B98DE51A601B9B5018FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barhops/Pods-Barhops-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDFABECDF6959AFFDA824509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Barhops/Pods-Barhops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		955D744A1E2A8D8800C74649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D74541E2A8D8800C74649 /* MainBarViewController.swift in Sources */,
+				955D74521E2A8D8800C74649 /* AppDelegate.swift in Sources */,
+				955D74661E2A9D4B00C74649 /* ProfileViewController.swift in Sources */,
+				955D74641E2A986100C74649 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		955D74551E2A8D8800C74649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955D74561E2A8D8800C74649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		955D745A1E2A8D8800C74649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				955D745B1E2A8D8800C74649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		955D745E1E2A8D8800C74649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		955D745F1E2A8D8800C74649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		955D74611E2A8D8800C74649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE26F761732F72047154546F /* Pods-Barhops.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5S7CM55XUG;
+				INFOPLIST_FILE = Barhops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurokakari.Barhops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		955D74621E2A8D8800C74649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95A8A1EF30C4FD15436F2EF /* Pods-Barhops.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5S7CM55XUG;
+				INFOPLIST_FILE = Barhops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kurokakari.Barhops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		955D74491E2A8D8800C74649 /* Build configuration list for PBXProject "Barhops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D745E1E2A8D8800C74649 /* Debug */,
+				955D745F1E2A8D8800C74649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		955D74601E2A8D8800C74649 /* Build configuration list for PBXNativeTarget "Barhops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955D74611E2A8D8800C74649 /* Debug */,
+				955D74621E2A8D8800C74649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 955D74461E2A8D8800C74649 /* Project object */;
+}
