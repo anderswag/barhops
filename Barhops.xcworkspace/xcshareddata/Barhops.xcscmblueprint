@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A421A6853893F72F02D6C85AE4ED4549670B24A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0A421A6853893F72F02D6C85AE4ED4549670B24A" : 9223372036854775807,
+    "810BFD5989A0B3E1BF1DD2CC3D9E3B8E4F867B75" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3E45B6E-136A-48B2-8F36-31F85F20BAC0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0A421A6853893F72F02D6C85AE4ED4549670B24A" : "Barhops%20app\/",
+    "810BFD5989A0B3E1BF1DD2CC3D9E3B8E4F867B75" : "barhops\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Barhops",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Barhops.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/StephenTomlin\/barhops\/tree\/master",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A421A6853893F72F02D6C85AE4ED4549670B24A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/StephenTomlin\/barhops.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "810BFD5989A0B3E1BF1DD2CC3D9E3B8E4F867B75"
+    }
+  ]
+}

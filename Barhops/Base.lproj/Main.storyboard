@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="rootView" id="BYZ-38-t0r" customClass="RootViewController" customModule="Barhops" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <segue destination="ygk-0r-ZUs" kind="custom" identifier="mm_center" customClass="MMDrawerControllerSegue" id="dZw-iO-Dhc"/>
+                        <segue destination="Kd6-9z-Qpu" kind="custom" identifier="mm_left" customClass="MMDrawerControllerSegue" id="hhs-cZ-ftv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="t0S-dR-A6M">
+            <objects>
+                <viewController storyboardIdentifier="profile" id="Kd6-9z-Qpu" customClass="ProfileViewController" customModule="Barhops" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PRR-l9-eNe"/>
+                        <viewControllerLayoutGuide type="bottom" id="das-Yl-87C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S3S-fZ-yzT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0Co-yh-osl">
+                                <rect key="frame" x="16" y="89" width="244" height="589"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0Co-yh-osl" secondAttribute="height" multiplier="12:29" id="BGQ-Tx-n74"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Co-yh-osl" firstAttribute="width" secondItem="S3S-fZ-yzT" secondAttribute="width" multiplier="0.65" id="2Bt-ST-iEA"/>
+                            <constraint firstItem="0Co-yh-osl" firstAttribute="centerY" secondItem="S3S-fZ-yzT" secondAttribute="centerY" multiplier="1.15" id="8ak-N0-kut"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="0Co-yh-osl" secondAttribute="leading" id="vGu-jg-Bhd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="barTable" destination="0Co-yh-osl" id="3Pg-0D-bUm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QMn-Tb-Leo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-354.39999999999998" y="877.51124437781118"/>
+        </scene>
+        <!--Main Bar View Controller-->
+        <scene sceneID="ui4-Lu-sNg">
+            <objects>
+                <viewController storyboardIdentifier="map" id="ygk-0r-ZUs" customClass="MainBarViewController" customModule="Barhops" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f1u-jm-y0s"/>
+                        <viewControllerLayoutGuide type="bottom" id="ITN-Og-pxX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i7r-Fh-N4f">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Igp-z6-KuP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="428" y="878.41079460269873"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_Barhops {
+  umbrella header "Pods-Barhops-umbrella.h"
+
+  export *
+  module * { export * }
+}
