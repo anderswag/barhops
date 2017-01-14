@@ -2,14 +2,14 @@
 
 const express = require('express')
 const app = express()
-const bodyParser  = require("body-parser");
 
 // Routes
-const getNearBars        = require("./routes/getNearBars");
+const getNearBars     = require("./routes/getNearBars");
 
 
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
+
 
 app.use("/api/getNearBars", getNearBars());
 
